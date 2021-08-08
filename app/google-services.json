@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "121503499183",
+    "project_id": "fir-singnin-1a05e",
+    "storage_bucket": "fir-singnin-1a05e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121503499183:android:18da0ba1fc39284d59a55a",
+        "android_client_info": {
+          "package_name": "com.example.firebasegooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121503499183-ae5m8vrs3257hibhb152og19j43tm8ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasegooglesignin",
+            "certificate_hash": "a611babe4ae91436f0f419a12aa6887f8e00f8d0"
+          }
+        },
+        {
+          "client_id": "121503499183-pqj1bethc154m1qomi6b4j5q4jsk46kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxmVod4LLMGWk8kXT03ttzLzufzxyir2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121503499183-pqj1bethc154m1qomi6b4j5q4jsk46kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
