@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/common_background">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Welcome to APMS"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/levelsImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gassesimg"
+        android:layout_marginRight="175dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/heading"
+        app:layout_constraintStart_toStartOf="@+id/heading"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/levelsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Levels"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/levelsImageButton"
+        app:layout_constraintStart_toStartOf="@+id/levelsImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/levelsImageButton" />
+
+    <ImageButton
+        android:id="@+id/statsImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/statsimage"
+        app:layout_constraintEnd_toEndOf="@+id/heading"
+        app:layout_constraintStart_toStartOf="@+id/heading"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/statsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Statistics"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/statsImageButton"
+        app:layout_constraintStart_toStartOf="@+id/statsImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/statsImageButton" />
+
+    <ImageButton
+        android:id="@+id/profileImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profileimg"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="@+id/levelsImageButton"
+        app:layout_constraintStart_toStartOf="@+id/levelsImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/levelsImageButton" />
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Profile"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/profileImageButton"
+        app:layout_constraintStart_toStartOf="@+id/profileImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/profileImageButton" />
+
+    <ImageButton
+        android:id="@+id/infoImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/infoimg"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="@+id/statsImageButton"
+        app:layout_constraintStart_toStartOf="@+id/statsImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/statsImageButton" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Information"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="@+id/infoImageButton"
+        app:layout_constraintStart_toStartOf="@+id/infoImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/infoImageButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

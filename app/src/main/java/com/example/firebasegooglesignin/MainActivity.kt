@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     private fun checkUser() {
     val firebaseUser = firebaseAuth.currentUser
         if(firebaseUser != null){
-            startActivity(Intent(this@MainActivity,ProfileActivity::class.java))
+            startActivity(Intent(this@MainActivity,DashboardActivity::class.java))
             finish()
         }
     }
@@ -95,8 +95,7 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG,"firebaseAuthWithGoogleAccount: Existing user")
                     Toast.makeText(this@MainActivity,"logged in...",Toast.LENGTH_LONG).show()
                 }
-                startActivity(Intent(this@MainActivity,ProfileActivity::class.java))
-                finish()
+                checkUser()
             }
             .addOnFailureListener { e->
                 Log.d(TAG,"firebaseAuthWithGoogleAccount: Login Failed")
