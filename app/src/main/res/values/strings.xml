@@ -17,7 +17,7 @@
     <string name="login_failed">"Login failed"</string>
 
 
-<!--    symbols-->
+    <!--    symbols-->
     <string name="degree">°</string>
     <string name="temp"> °C</string>
     <string name="humid">%</string>

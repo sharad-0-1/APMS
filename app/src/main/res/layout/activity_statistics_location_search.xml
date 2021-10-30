@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/common_background"
+        android:padding="20dp"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/etusername"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:hint="Location"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/readdataBtn"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Get Data"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etusername" />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/co22"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/readdataBtn"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

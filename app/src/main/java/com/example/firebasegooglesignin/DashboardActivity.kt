@@ -21,5 +21,8 @@ class DashboardActivity : AppCompatActivity() {
         binding.profileImageButton.setOnClickListener {
             startActivity(Intent(this@DashboardActivity,ProfileActivity::class.java))
         }
+        binding.statsImageButton.setOnClickListener {
+            startActivity(Intent(this@DashboardActivity,StatisticsLocationSearch::class.java))
+        }
     }
 }
