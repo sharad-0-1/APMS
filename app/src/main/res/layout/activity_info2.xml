@@ -39,7 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="This platform Is designed for air pollution measurement   sensors integrated module consisting of pollutant gases   C0, CO2, CH4,NOZ, 03, S02), particufate matters{PM2.5   and PM10) and weather parameters(temperature and humidity). "
+        android:text="This platform Is designed for air pollution measurement   sensors integrated module consisting of pollutant gases   (C0, CO2, CH4,NOZ, 03, S02), particutate matters(
+        PM2.5   and PM10) and weather parameters(temperature and humidity). "
         android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
         android:textSize="15sp"

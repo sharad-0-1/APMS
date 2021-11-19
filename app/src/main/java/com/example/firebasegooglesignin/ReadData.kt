@@ -55,12 +55,12 @@ class ReadData : AppCompatActivity() {
                 binding.longi.text = longitude.toString()+" °"
                 binding.temp.text = temp.toString()+" °C"
                 binding.humi.text = humidity.toString()+" %"
-                binding.co2.text = co2.toString()+ " ppb"
-                binding.co.text = co.toString()+ " ppb"
-                binding.so2.text = so2.toString()+ " ppb"
-                binding.no2.text = no2.toString()+ " ppb"
-                binding.methane.text = methane.toString()+ " ppb"
-                binding.o3.text = o3.toString()+ " ppb"
+                binding.co2.text = co2.toString()+ " ppm"
+                binding.co.text = co.toString()+ " ppm"
+                binding.so2.text = so2.toString()+ " ppm"
+                binding.no2.text = no2.toString()+ " ppm"
+                binding.methane.text = methane.toString()+ " ppm"
+                binding.o3.text = o3.toString()+ " ppm"
 
             }else{
 

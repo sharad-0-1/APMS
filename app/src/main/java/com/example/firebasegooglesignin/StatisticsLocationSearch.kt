@@ -61,6 +61,8 @@ class StatisticsLocationSearch : AppCompatActivity() {
         pieChart.isRotationEnabled = false
         pieChart.setDrawEntryLabels(false)
         pieChart.legend.orientation = Legend.LegendOrientation.VERTICAL
+//        pieChart.legend.formSize = pieChart.legend.formSize
+        pieChart.legend.formSize=pieChart.legend.formSize*2
         pieChart.legend.isWordWrapEnabled = true
 
     }
@@ -78,12 +80,12 @@ class StatisticsLocationSearch : AppCompatActivity() {
         dataEntries.add(PieEntry(f/sum * 100, "O3"))
 
         val colors: ArrayList<Int> = ArrayList()
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
+        colors.add(Color.parseColor("#2A396D"))
+        colors.add(Color.parseColor("#4FBFC2"))
+        colors.add(Color.parseColor("#FFF09F"))
+        colors.add(Color.parseColor("#F2857D"))
+        colors.add(Color.parseColor("#6E5280"))
+        colors.add(Color.parseColor("#4F3363"))
 
         val dataSet = PieDataSet(dataEntries, "")
         val data = PieData(dataSet)
